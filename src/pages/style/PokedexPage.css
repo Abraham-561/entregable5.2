@@ -1,0 +1,132 @@
+.header_line {
+  width: 100%;
+  height: 8em;
+  margin: 0;
+}
+
+.header_line_red{
+  position: relative;
+  width: 100%;
+  height: 5em;
+  background-color: #fe1936;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_line_black {
+  width: 100%;
+    height: 2em;
+    background-color: #000;
+}
+.header_img {
+  position: relative;
+  top: -4em;
+  width: 13em;
+  left: 5em;
+  margin-left: 1em;
+  transition: transform 0.3s; /* Agregamos una transición para el efecto de hover */
+}
+
+.header_img:hover {
+  transform: scale(1.2); /* Hacemos que la imagen se haga un 20% más grande */
+}
+.header_cicle {
+  position: relative;
+  top: -5.5em;
+ 
+  left: 80%;
+  width: 4em;
+  background-color: #000;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_cicle2 {
+  width: 3em;
+  background-color: #fff;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_cicle3 {
+  width: 2em;
+  background-color: #000;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.pokedex__cont-total {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.pokedex__img {
+  width: 100%;
+  height: 121px;
+}
+
+.pokedex__text {
+  text-align: center;
+}
+
+.pokedex__form {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  height: 35px;
+}
+
+.pokedex__input {
+  width: 60%;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.pokedex__btn {
+  font-size: 1.1em;
+  width: 20%;
+  background-color: #fe1936;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: Inter;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pokedex__list {
+  padding: 1em;
+  width: 100%;
+  display: flex;
+}
+
+.pokedex__span {
+  color: red;
+}
+
+.pokedex__form-select {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
